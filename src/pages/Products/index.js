@@ -1,7 +1,9 @@
-
+import Card from '../../components/Card'
 function Products(){
     return(
-       <h1>Produtos</h1>
+       <>
+        <Card />
+       </>
     )
 }
 
