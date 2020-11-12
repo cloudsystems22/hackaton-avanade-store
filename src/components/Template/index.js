@@ -1,5 +1,10 @@
-import Header from "../Header";
+import Header from '../Header';
 
-export default function Template() {
-  return <Header />;
+export default function Template({ children }) {
+  return (
+    <>
+      <Header />
+      {children}
+    </>
+  );
 }

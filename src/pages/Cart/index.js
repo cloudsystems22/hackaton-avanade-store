@@ -15,7 +15,8 @@ function Cart() {
     {
       id: 1,
       image: '',
-      title: 'Teste 1',
+      title: 'Camiseta verde',
+      quantity: 1,
       price: 30.0,
     },
   ]);
@@ -41,27 +42,26 @@ function Cart() {
                 </td>
                 <td>
                   <strong>{product.title}</strong>
-                  <span>{product.price}</span>
                 </td>
                 <td>
                   <div>
                     <button type='button' onClick={() => decrement(product)}>
-                      <MdRemoveCircleOutline size={20} color='#7159c1' />
+                      <MdRemoveCircleOutline size={20} color='#f62f5e' />
                     </button>
                     <input
                       type='number'
                       name='amount'
                       readOnly
-                      value={product.amount}
+                      value={product.quantity}
                     />
                     <button type='button' onClick={() => increment(product)}>
-                      <MdAddCircleOutline size={20} color='#7159c1' />
+                      <MdAddCircleOutline size={20} color='#f62f5e' />
                     </button>
                   </div>
                 </td>
-                <td>{product.subtotal}</td>
+                <td>{product.price}</td>
                 <td>
-                  <FaRegTrashAlt size={20} color='#7159c1' onClick={() => {}} />
+                  <FaRegTrashAlt size={20} color='#f62f5e' onClick={() => {}} />
                 </td>
               </tr>
             ))}
