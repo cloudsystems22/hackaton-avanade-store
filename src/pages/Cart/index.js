@@ -15,9 +15,10 @@ function Cart() {
     {
       id: 1,
       image: '',
-      title: 'Camiseta verde',
-      quantity: 1,
-      price: 30.0,
+      title: 'Men BK3569',
+      size: 'XXL',
+      quantity: 2,
+      price: 21,
     },
   ]);
   return (
@@ -44,6 +45,9 @@ function Cart() {
                   <strong>{product.title}</strong>
                 </td>
                 <td>
+                  <strong>{product.size}</strong>
+                </td>
+                <td>
                   <div>
                     <button type='button' onClick={() => decrement(product)}>
                       <MdRemoveCircleOutline size={20} color='#f62f5e' />
@@ -59,7 +63,7 @@ function Cart() {
                     </button>
                   </div>
                 </td>
-                <td>{product.price}</td>
+                <td>£ {product.price}</td>
                 <td>
                   <FaRegTrashAlt size={20} color='#f62f5e' onClick={() => {}} />
                 </td>

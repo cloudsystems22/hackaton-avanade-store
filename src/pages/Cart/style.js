@@ -6,7 +6,7 @@ export const Container = styled.div`
   background: #fff;
   border-radius: 5px;
   width: 100%;
-  max-width: 800px;
+  max-width: 900px;
 
   footer {
     display: flex;
