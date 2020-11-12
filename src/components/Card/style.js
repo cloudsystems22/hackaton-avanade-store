@@ -1,13 +1,22 @@
 import styled from "styled-components";
 import bolsaUm from '../../assets/images/bolsa_um.png'
 
+export const Body = styled.body`
+    background: #E5E5E5;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline: 0;
+    height: 100vh;
+    padding-top: 15px;
+`
+
 export const CardPrincipal = styled.div`
     background-color: white;
     width:75vw;
     height:45vh;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
     display: flex;
 `;
 
@@ -25,7 +34,6 @@ export const DetailsProduto = styled.div`
     height: 20vh;
     margin-bottom: 10px;
     padding-bottom: 10px;
-
 `;
 
 export const TituloProduto = styled.p`
@@ -45,6 +53,7 @@ export const ButtonAdd = styled.button`
     border-radius: 50px;
     border: none;
     color: white;
-`
+`;
+
 
 
