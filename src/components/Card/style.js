@@ -3,8 +3,8 @@ import bolsaUm from '../../assets/images/bolsa_um.png'
 
 export const CardPrincipal = styled.div`
     background-color: white;
-    width:60vw;
-    height:30vh;
+    width:75vw;
+    height:45vh;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
@@ -12,8 +12,8 @@ export const CardPrincipal = styled.div`
 `;
 
 export const ImagPrincipal = styled.div`
-    width: 30vw;
-    height: 30vh;
+    width: 45vw;
+    height: 45vh;
     background-size: contain;
     background-image:url(${bolsaUm}); 
     background-position: cover;
@@ -23,7 +23,28 @@ export const ImagPrincipal = styled.div`
 export const DetailsProduto = styled.div`
     width: 60vw;
     height: 20vh;
-    
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+
 `;
+
+export const TituloProduto = styled.p`
+    font-size:30px;
+    font-weight: bold;
+    text-align: justify;
+`;
+
+export const SpanPreco = styled.span`
+    color:red;
+`;
+
+export const ButtonAdd = styled.button`
+    background-color:#F62F5E;
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+`
 
 
