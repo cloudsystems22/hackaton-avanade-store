@@ -20,6 +20,30 @@ function Cart() {
       quantity: 2,
       price: 21,
     },
+    {
+      id: 2,
+      image: '',
+      title: 'Men BK3569',
+      size: 'XL',
+      quantity: 2,
+      price: 13,
+    },
+    {
+      id: 3,
+      image: '',
+      title: 'Men BK3569',
+      size: 'L',
+      quantity: 2,
+      price: 42,
+    },
+    {
+      id: 4,
+      image: '',
+      title: 'Men BK3569',
+      size: 'XS',
+      quantity: 2,
+      price: 24,
+    },
   ]);
   return (
     <Template>
