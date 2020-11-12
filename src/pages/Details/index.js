@@ -1,5 +1,6 @@
 import { BaseTitle, Container, Row, Column } from "./styles";
 import React, { useState, useEffect } from "react";
+import { shirt_king } from "../../assets/images/shirt_king.png";
 
 function Details() {
   const [review, setReview] = useState({
@@ -9,7 +10,7 @@ function Details() {
   return (
     <>
       <div>
-        <div>Imagem</div>
+        <img src={shirt_king} alt="shirt" />
         <BaseTitle>Super Oversized T-Shirt With Raw Sleeves In Brown</BaseTitle>
         13.99
         <label>Color</label>
