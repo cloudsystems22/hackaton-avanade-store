@@ -1,11 +1,9 @@
-import GlobalStyle from "./Global";
-import Routes from "./routes";
-import Template from "./components/Template"
+import GlobalStyle from './Global';
+import Routes from './routes';
 
 function App() {
   return (
     <>
-      <Template />
       <Routes />
       <GlobalStyle />
     </>
