@@ -34,7 +34,6 @@ export const Row = styled.div`
 
 export const Column = styled.div`
   float: left;
-  padding: .25rem;
   min-height: 1px;
   box-sizing: border-box;
   width: 100%;
