@@ -4,9 +4,9 @@ export const HeaderStyle = styled.header`
   background-color: #2e2e2e;
   color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
   padding: 10px;
-  font-family: Arial, Helvetica, sans-serif;
 `;
 
 export const HeaderH1 = styled.h1`

@@ -24,7 +24,7 @@ function Header(props) {
 
       <Input />
 
-      <FiShoppingBag size={32} color="#fff" />
+      <FiShoppingBag size={22} color="#fff" />
     </HeaderStyle>
   );
 }
