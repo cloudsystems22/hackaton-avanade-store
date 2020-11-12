@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const BaseTitle = styled.h1`
+export const BaseTitle = styled.h1`
   position: absolute;
   width: 380px;
   height: 72px;
@@ -13,4 +13,4 @@ const BaseTitle = styled.h1`
   color: #2e2e2e;
 `;
 
-export { BaseTitle };
+export const divImageProduct = styled.div``;
